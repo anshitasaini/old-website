@@ -1,76 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Anshita Saini | Research</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
-</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshita Saini</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
 <body>
+  <!-- NavBar -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="./images/final_logo.jpg">
+      </a>
+    </div>
 
-<!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-black w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">About</a>
-    <a href="research.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Research</a>
-    <a href="leadership.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Leadership</a>
-    <a href="activities.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Activities</a>
-    <a href="honors.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Honors</a>
-  </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="research.html">RESEARCH</a>
+        <a class="navbar-item" href="leadership.html">LEADERSHIP</a>
+        <a class="navbar-item" href="activities.html">ACTIVITIES</a>
+        <a class="navbar-item" href="honors.html">HONORS</a>
+      </div>
+    </div>
+  </nav>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">About</a>
-    <a href="research.html" class="w3-bar-item w3-button w3-padding-large">Research</a>
-    <a href="leadership.html" class="w3-bar-item w3-button w3-padding-large">Leadership</a>
-    <a href="activities.html" class="w3-bar-item w3-button w3-padding-large">Activities</a>
-    <a href="honors.html" class="w3-bar-item w3-button w3-padding-large">Honors</a>
-  </div>
-</div>
 
-<!-- Header -->
-<header class="w3-container w3-white w3-center" style="padding:130px 16px">
-  <h1 class="w3-margin w3-jumbo">Research</h1>
-  <br>
-  <br>
-  <a href = "musicology.html"><i class="fa fa-music w3-hover-opacity w3-left w3-jumbo w3-margin-top" style="padding-left:200px"></i></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href = "healthcare.html"><i class="fa fa-heartbeat w3-hover-opacity w3-center w3-jumbo w3-margin-top" style="padding-left:75px"></i></a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href = "astro.html"><i class="fa fa-rocket w3-hover-opacity w3-center w3-jumbo w3-margin-top" style="padding-left:255px"></i></a>
+  <!-- Hero del producto -->
+  <section class="hero is-white is-fullheight">
+   
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered has-text-centered">
+          <div data-aos="zoom-in-up" class="column is-8">
+            <h1 class="title titled is-1 mb-6">
+              Research
+            </h1>
+          </div>
+        </div>
+        
+        <div class="columns  is-vcentered reverse-columns">
+          <div class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-5-desktop is-offset-1-desktop
+          is-5-widescreen is-offset-1-widescreen
+          is-5-fullhd is-offset-1-fullhd" data-aos="fade-down">
+            <h2 class="title smalltitled is-1 mb-6">Mobile Health Systems</h2>
+            <h2 class="subtitled subtitle">
+              Smartphone-Based Ischemic Stroke Screening
+            </h2>
+            <p>
+              Every year over forty thousand strokes are caused by internal carotid stenosis in the US alone. 
+              Our research aim is to identify patients that are best suited for 
+              carotid artery surgery for stroke risk detection through facial 
+              videos on a mobile phone. I am applying computer vision and 
+              signal processing techniques to extract the pulse of a user from 
+              facial videos. A delay in the pulse between the left and 
+              right sides of the forehead indicates possible blockage 
+              of the carotid artery. 
+            </p>
+            <br>
+            <!-- <a href=""><button class="button is-link is-outlined">Code</button></a> -->
+            <h2 class="subtitled subtitle">
+              <br>
+              Mobile Ultrasonic Sonar Exercise Sensing
+            </h2>
+            <p>
+              Physical inactivity is the fourth leading risk factor 
+              for death worldwide, and yet eighty percent of US adults do not 
+              meet national exercise recommendations. Our aim is to quantify upper
+              body movement using a novel sonar sensing method on a mobile phone. 
+              Though FitBits and similar technologies count steps using accelerometers, 
+              such devices are prohibitively inadequate for many obese, elderly, or 
+              disabled populations. With a fellow intern, I helped build a health 
+              application to track upper-body exercises, targeting millions with 
+              sedentary lifestyles. I coded a data collection web application, 
+              helped conduct a study, and developed repetition counting techniques. 
+              We additionally applied deep learning in Python to classify over 
+              10 types of physical activity.
+            </p>
+            <br>
+            <a href="./docs/doppler_poster.pdf"><button class="button is-link is-outlined">Poster</button></a>
+            <a href="./docs/doppler_report.pdf"><button class="button is-link is-outlined">Report</button></a>
+          </div>
+          <div data-aos="fade-right" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd">
+          <br><br><br><br><br>
+            <figure class="image">
+              <a href="https://www.hopkinsmedicine.org/heart_vascular_institute/vascular-surgery/our-specialties/carotid-artery-disease.html">
+                <img src="./images/stenosis.PNG">
+              </a>
+            </figure>
+            <br><br><br>
+            <figure class="image">
+              <img src="./images/doppler.png">
+            </figure>
+          </div>
 
-</header>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- Footer -->
-<footer class="w3-container w3-white w3-center w3-opacity">
-  <div class="w3-xlarge w3-padding-16">
-    <a href = "https://www.facebook.com/anshita.saini.921"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <a href = "https://www.instagram.com/_anshita_saini/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-  <!-- <i class="fa fa-linkedin w3-hover-opacity"></i> -->
- </div>
- <br>
-</footer>
+  <section class="hero is-white is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns  is-vcentered">
+          <div data-aos="fade-left" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd">
+            <br><br><br><br><br>
+            <figure class="image is-square">
+              <a href="https://en.wikipedia.org/wiki/Mira_variable"><img src="./images/mira.jpg"></a>
+            </figure>
+            <br><br><br><br><br>
+            <figure class="image is-square">
+              <img src="./images/orbit_viz.png" >
+            </figure>
+          </div>
+          <div data-aos="fade-down" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-5-desktop is-offset-1-desktop
+          is-5-widescreen is-offset-1-widescreen
+          is-5-fullhd is-offset-1-fullhd">
+            <h1 class="title smalltitled is-1 mb-6">Astrophysics</h1>
+            <h2 class=" subtitled subtitle">
+              Stellar Photometry
+            </h2>
+            <p>
+              Stellar pulsation is typically caused by the
+              expansion and contraction of the outer layers of varialbe stars.
+              These stars are classified according to factors like magnitude
+              change and regularity of periodicity. In our paper, we present our updates and 
+              findings surrounding both period and classification analysis of 21 Miras
+              and 4 semiregular variable stars. Our primary methods for confirming pulsation 
+              period include both qualitative and quantitative examination of time series 
+              plots and light curves, along with cross-confirmation using 
+              publicly-accessible databases with over one-hundred years of published data. 
+              Using the visual observations and the Johnson V data from the AAVSO, and with the help of
+              the AAVSO’s VStar software, we arrived at refined period values to confirm 
+              data published by the Varible Star Index (VSX).
+            </p>
+            <br>
+            <a href="https://app.aavso.org/media/jaavso/3718_vUo82Gs.pdf">
+              <button class="button is-link is-outlined">Published Paper</button>
+            </a>
+            <h2 class=" subtitled subtitle">
+              <br>
+              Asteroid Orbit Determination
+            </h2>
+            <p>
+              In the summer of 2020, I was thrilled to be 1 of 36 students selected internationally 
+              to participate in the Summer Science Program in Astrophysics in cooperation with host campuses New Mexico Tech, 
+              University of Colorado Boulder, Purdue University and Indiana University, and academic affiliates 
+              Caltech, MIT, and Harvey Mudd College. Over the course of five weeks, 
+              I spent over 300 hours working with a three-person observing team to remotely operate 
+              a research-grade telescope to obtain images of the near-Earth asteroid 2011 XZ1. 
+              We performed photo reduction and astrometry on the images and used the asteroid's 
+              coordinates to calculate its six orbital elements. Our data was published in the 
+              <a href="./docs/MPC_Report.pdf" class="underline">Minor Planet Center (M.P.C.) Report 
+                of the International Astronomical Union.</a>
+            </p>
+            <br>
+            <a href="./docs/orbit_report.pdf"><button class="button is-link is-outlined">Report</button></a>
+          </div>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <section class="hero is-white is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns  is-vcentered reverse-columns">
+          <div data-aos="fade-right" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-5-desktop is-offset-1-desktop
+          is-5-widescreen is-offset-1-widescreen
+          is-5-fullhd is-offset-1-fullhd">
+            <h1 class="title smalltitled is-1 mb-6">
+              Computational Musicology
+            </h1>
+            <h2 class="subtitle subtitled">
+              Classifying Raags
+            </h2>
+            <p>
+              On my Junior Diploma exam in Hindustani Classical Music, I struggled with the challenge of 
+              differentiating between raags, the name given to Hindustani equivalents of Western melodic 
+              scale patterns. Each raag is distinguished by emphasis on certain notes or re-occurring patterns. 
+              One day, as I was practicing for my exam, I thought to myself - could a computer possibly 
+              complete this classification between raags that I struggled with? The architecture of my 
+              lab research’s machine learning network immediately popped into my mind. I embarked on a 
+              year-long individual research project where I coded a one-dimensional convolutional 
+              neural network to classify different raags. My IB Extended Essay on this research topic can be found below.
+            </p>
+            <br>
+            <a href="./docs/comp_music_essay.pdf"><button class="button is-link is-outlined">Report</button></a>
+          </div>
+          <div data-aos="fade-down" class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd" data-aos="fade-up">
+          <br><br><br><br><br><br>
+            <figure class="image">
+              <img src="./images/raag.png">
+            </figure>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.13.1/core.min.js"></script>
+  <script>
+    new Typewriter('#typewriter', {  
+      strings: ['a mobile healthcare researcher.', 'an amateur astrophysicist.',
+                'a performing artist.', 'a Turing Scholar at the University of Texas at Austin.'],
+      autoStart: true,
+      loop: true,
+    });
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true
+    });
+  </script>
 </body>
+
 </html>
