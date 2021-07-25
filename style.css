@@ -5,6 +5,10 @@
     }
 }
 
+.footer {
+    background-color: #c0f0e8;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -35,4 +39,18 @@
     font-size: 22px !important;
     font-weight: 400 !important;
     line-height: 36px !important;
+}
+
+.green-color {
+    background-color: #d5f0eb;
+}
+
+.light-color {
+    background-color: #e6fcf9;
+}
+
+.btn-disabled,
+.btn-disabled[disabled] {
+  cursor: default !important;
+  pointer-events: none;
 }
